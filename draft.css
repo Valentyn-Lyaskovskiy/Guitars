@@ -1,0 +1,37 @@
+/* CSS only for demo purpose*/
+#btn-back-to-top {
+  position: fixed;
+  display: none;
+  bottom: 3rem;
+  right: 3rem;
+  background: #ff6428;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.test {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+  position: relative;
+}
+
+.test p {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}

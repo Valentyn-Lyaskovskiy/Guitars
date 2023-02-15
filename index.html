@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./img/Butterfly_2.png" />
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browsing to find a guitar is easy using a website Rhythm"
+    />
+    <title>Rhythm &mdash; browse 🎸 easily</title>
+    <script defer src="htpps://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <!-- <script defer src="https://chrome-extension/gighmmpiobklfepjocnamgkkbiglidom/browser-polyfill.js.map"></script> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <a href="" class="logo">
+            <img src="./img/logo.svg" alt="logo" class="img-logo" />
+          </a>
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li><a class="header-list-item" href="#store">Store</a></li>
+              <li>
+                <a class="header-list-item" href="#collections">Collections</a>
+              </li>
+              <li><a class="header-list-item" href="#support">Support </a></li>
+            </ul>
+          </nav>
+          <button class="btn-nav">
+            <ion-icon
+              class="nav-icon md hydrated"
+              name="menu-outline"
+              role="img"
+              aria-label="menu outline"
+            ></ion-icon>
+            <ion-icon
+              class="nav-icon md hydrated"
+              name="close-outline"
+              role="img"
+              aria-label="close outline"
+            ></ion-icon>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="section-main">
+          <div class="main-container">
+            <div class="main-left">
+              <h1 class="main-title">
+                Browse top<br />
+                quality <span>Guitars</span> online
+              </h1>
+              <p class="main-text">
+                Explore <span class="fifty">50k+</span> latest collections of
+                branded guitars<br />
+                online with
+                <span class="fifty">Rhythm</span>
+              </p>
+              <div class="main-btn">
+                <a href="#" class="main-link">Get the App</a>
+                <div class="main-icon">
+                  <img src="img/play.svg" alt="Playmarket icon" />
+                </div>
+                <div class="main-icon">
+                  <img src="img/Apple-logo.svg" alt="Apple icon" />
+                </div>
+              </div>
+            </div>
+            <div class="main-right">
+              <div class="main-img">
+                <picture>
+                  <source srcset="./img/main.webp" type="image/webp" />
+                  <source srcset="./img/main.png" type="image/png" />
+                  <img class="main-image" src="img/main.png" alt="Guitar" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="store" class="store">
+          <div class="store-container">
+            <div class="store-wrapper">
+              <h2 class="h2 h2-store">
+                Check out the<span class="span-h2"> Store</span>
+              </h2>
+            </div>
+            <div class="store-body">
+              <div class="store-header">
+                <div class="header-title">NEW ON THE BOARD</div>
+                <a href="#">view all</a>
+              </div>
+              <div class="store-body-items">
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/01.png" alt="item" />
+                  </a>
+                  <a href="" class="store-title">The Essential Les Paul</a>
+                  <div class="price">$1,299.00</div>
+                </div>
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/02.png" alt="item" />
+                  </a>
+                  <a href="" class="store-title">J-45 Standard</a>
+                  <div class="price">$1,699.00</div>
+                </div>
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/03.png" alt="item" />
+                  </a>
+                  <a href="" class="store-title">Hummingbird Standard</a>
+                  <div class="price">$2,099.00</div>
+                </div>
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/04.png" alt="item" />
+                  </a>
+                  <a href="#" class="store-title"
+                    >Active Precision Bass® PH V</a
+                  >
+                  <div class="price">$4,199.00</div>
+                </div>
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/05.png" alt="item" />
+                  </a>
+                  <a href="" class="store-title">Redondo Special</a>
+                  <div class="price">$2,800.00</div>
+                </div>
+                <div class="store-body-item">
+                  <a href="" class="store-img">
+                    <img src="img/06.jpg" alt="item" />
+                  </a>
+                  <a href="" class="store-title"
+                    >Professional II Stratocaster®</a
+                  >
+                  <div class="price">$3,199.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="categories">
+          <div class="container">
+            <h2 id="collections"  class="h2 h2-category">
+              Choose based on
+              <span class="span-h2">Categories</span>
+            </h2>
+            <div class="examples">
+              <a class="category-link" href="">
+                <div class="category-title">Acoustic</div>
+                <div class="category-img">
+                  <img src="../img/ex-04.jpg" alt="a guitar photo" />
+                </div>
+              </a>
+              <a class="category-link" href="">
+                <div class="category-title">Electric</div>
+                <div class="category-img">
+                  <img src="../img/ex-03.jpg" alt="a guitar photo" />
+                </div>
+              </a>
+              <a class="category-link" href="">
+                <div class="category-title">Basses</div>
+                <div class="category-img">
+                  <img src="../img/ex-02.jpg" alt="a guitar photo" />
+                </div>
+              </a>
+              <a class="category-link" href="">
+                <div class="category-title">Collections</div>
+                <div class="category-img">
+                  <img src="../img/ex-01.jpg" alt="a guitar photo" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature">
+          <div class="container-feature">
+            <h2 class="h2 h2-featuring">
+              Featuring the <span class="span-h2">Best Brands</span>
+            </h2>
+          </div>
+          <div class="feature-items">
+            <div class="feature-item">
+              <img src="./img/feature-01.jpg" alt="brand logo" />
+            </div>
+            <div class="feature-item">
+              <img src="./img/feature-02.jpg" alt="brand logo" />
+            </div>
+            <div class="feature-item">
+              <img src="./img/feature-03.jpg" alt="brand logo" />
+            </div>
+            <div class="feature-item">
+              <img src="./img/feature-04.jpg" alt="brand logo" />
+            </div>
+          </div>
+        </section>
+        <!--                WHY        -->
+        <section class="why">
+          <div class="why-container">
+            <h2 class="h2-why h2">
+              Why try <span class="span-h2"> Rhythm?</span>
+            </h2>
+            <div class="why-icons">
+              <div class="why-icon">
+                <div class="why-icon-img">
+                  <img src="./img/category-1.png" alt="icon" />
+                </div>
+                <div class="why-icon-title">Smooth Browsing</div>
+                <div class="why-icon-text">
+                  Smooth Browsing with<br />
+                  Rythm is real pleasure
+                </div>
+              </div>
+              <div class="why-icon">
+                <div class="why-icon-img">
+                  <img src="./img/category-2.png" alt="icon" />
+                </div>
+                <div class="why-icon-title">Easy Delivery</div>
+                <div class="why-icon-text">
+                  Easy Delivery with Rythm<br />
+                  is not a pipedream at all
+                </div>
+              </div>
+              <div class="why-icon">
+                <div class="why-icon-img">
+                  <img src="./img/category-3.png" alt="icon" />
+                </div>
+                <div class="why-icon-title">SwiFT PAYMENTS</div>
+                <div class="why-icon-text">
+                  Swift Payments with <br />Rhythm is a doddle
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--            Testimonials            -->
+
+        <section class="testimonials">
+          <div class="testimonial-container">
+            <h2 class="h2">
+              What our <span class="span-h2">customer’s </span> say
+            </h2>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="picture">
+                    <div class="swiper-img">
+                      <img src="./img/Guitarist.png" alt="Guitarist photo" />
+                    </div>
+                  </div>
+                  <div class="swiper-body">
+                    <div class="swiper-text">
+                      “The Quality and Delivery is always on time, being a
+                      professional guitarist myself I love the customer service
+                      the brand provides, highly recommend Rhythm anytime.”
+                    </div>
+                    <div class="swiper-author">
+                      <div class="swiper-name">Ryan Wels</div>
+                      <div class="swiper-position">PROFESSIONAL GUITARIST</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="picture">
+                    <div class="swiper-img">
+                      <picture>
+                        <source srcset="./img/Yurii.webp" type="image/webp" />
+                        <source srcset="./img/Yurii.png" type="image/png" />
+                        <img
+                          class="size"
+                          src="./img/Yurii.png"
+                          alt="Guitarist photo"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-body">
+                    <div class="swiper-text">
+                      “If I had got such opportunity <br />(browsing such a 🎸
+                      site) in my teenager years, I definitely would have become
+                      a Great Guitarist.”
+                    </div>
+                    <div class="swiper-author">
+                      <div class="swiper-name">Yurii Cheremishchuk</div>
+                      <div class="swiper-position">MEDIOCRE GUITARIST</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="picture">
+                    <div class="swiper-img">
+                      <picture>
+                        <source srcset="./img/Roman.webp" type="image/webp" />
+                        <source srcset="./img/Roman.png" type="image/png" />
+                        <img
+                          class="size"
+                          src="./img/Roman.png"
+                          alt="Guitarist photo"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-body">
+                    <div class="swiper-text">
+                      “If I had got such opportunity <br />(browsing such a 🎸
+                      site) in my teenager years, I definitely would have become
+                      a Great Guitarist.”
+                    </div>
+                    <div class="swiper-author">
+                      <div class="swiper-name">Roman Nadurak</div>
+                      <div class="swiper-position">WEAK GUITARIST</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="picture">
+                    <div class="swiper-img">
+                      <picture>
+                        <source
+                          srcset="./img/Valentyn.webp"
+                          type="image/webp"
+                        />
+                        <source srcset="./img/Valentyn.png" type="image/png" />
+                        <img
+                          class="size"
+                          src="./img/Valentyn.png"
+                          alt="Guitarist photo"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-body">
+                    <br />
+                    <div class="swiper-text">
+                      “If I had got such opportunity <br />(browsing such a 🎸
+                      site) in my teenager years, I definitely would have become
+                      a Great Guitarist as well.”
+                    </div>
+                    <div class="swiper-author">
+                      <div class="swiper-name">Valentyn Lyaskovskiy</div>
+                      <div class="swiper-position">AMATEUR GUITARIST</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <hr />
+          </div>
+        </section>
+
+        <section class="favourite">
+          <div class="favourite-container">
+            <div class="favourite-body">
+              <h2 class="h2 favourite-h2">
+                Browse and buy <br />
+                your
+                <span class="span-h2"
+                  >favorite <br />
+                  guitars</span
+                >
+                with <br />
+                Rhythm.
+              </h2>
+              <div class="favourite-apps">
+                <a href="">
+                  <img
+                    class="google"
+                    src="./img/Mobile-app-store-badge.jpg"
+                    alt="google app store badge"
+                  />
+                </a>
+                <a href="">
+                  <img
+                    src="./img/Mobile-app-store-badge _1.jpg"
+                    alt="apple app store badge"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="favourite-img">
+              <img src="./img/Favourite.jpg" alt="guitar images" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <a title="Top Button" href="" class="scroll-up"><span class="guitar-arrow">🎸</span></a> 
+
+          <!-- <ion-icon class="top-button-icon" name="arrow-up-outline"></ion-icon> -->
+          
+        </a>
+        <div class="footer-container">
+          <div class="footer-body">
+            <div class="footer-column">
+              <a href="">
+                <img
+                  class="footer-logo"
+                  src="./img/logo.svg"
+                  alt="Rhythm logo"
+                />
+              </a>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a id="support" class="sms" href="mailto:enquiry@Rhythm.com"
+                    >Enquiry@Rhythm.com</a
+                  >
+                </li>
+                <li class="footer-list-item">
+                  <a class="location" href="#">San Francisco</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <nav class="footer-menu">
+                <div class="footer-title">Pages</div>
+                <ul>
+                  <li><a class="a" href="#store">Store</a></li>
+                  <li><a class="a" href="#collections">Collections</a></li>
+                  <li><a class="a" href="./img/401.png">Support</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer-column">
+              <nav class="footer-menu">
+                <div class="footer-title">Product</div>
+                <ul>
+                  <li><a href=""  class="a">Terms</a></li>
+                  <li><a class="a" href="">Privacy Policy</a></li>
+                  <li><a class="a" href="/">Copyright</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer-column">
+              <div class="footer-social">
+                <div class="footer-title social">Follow us</div>
+                <div class="footer-items">
+                  <div class="footer-item">
+                    <a href="#">
+                      <img src="./img/Facebook.svg" alt="Facebook logo" />
+                    </a>
+                  </div>
+                  <div class="footer-item">
+                    <a href="#">
+                      <img src="./img/Twitter.svg" alt="Twitter logo" />
+                    </a>
+                  </div>
+                  <div class="footer-item">
+                    <a href="#">
+                      <img src="./img/Instagram.svg" alt="Instagram logo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copy">
+            © <span class="year">1976</span> Copyright.Rhythm
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
